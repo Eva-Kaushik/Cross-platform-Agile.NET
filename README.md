@@ -1,5 +1,5 @@
 
-Cross-Platform Agile.NET (Bunny)
+Cross-Platform Agile.NET 
 ======== 
 
 <img src="squirrel_logo.png" border="0" height="250" width="300">
@@ -30,22 +30,22 @@ Businesses are so sold up to the idea of Big data (it has almost become a status
 Business users (Operational Managers, System Engineers, Financial and Planning Analysts, DevOps, etc.), often want to initiate the analysis and gain insight into the
 business on their personal devices. But they cannot because of the special skills and training needed to perform such actions. Their outlook thus remains limited by the canned reports/insights offered by their backend. Could a Business user acquire, generate and visualize data of his choice, without knowing the details of data organization or query syntax?
 
-**Bunny** not only answers the above questions but also tries to fulfill the lack of a good data processing and analytics tool or framework to the large .NET developer ecosystem.
+This is not only answers the above questions but also tries to fulfill the lack of a good data processing and analytics tool or framework to the large .NET developer ecosystem.
 
-**Bunny** seeks to simplify the task of discovering insights by bringing to the software developer a templatized design style for answering most common problems in data science. Squirrel’s readymade functions bring the agility in developing a solution or a storyline from any data.
+This seeks to simplify the task of discovering insights by bringing to the software developer a templatized design style for answering most common problems in data science. Readymade functions bring the agility in developing a solution or a storyline from any data.
 
-**Bunny** brings the application closer to the Business user by delivering the ability to acquire and visualize data from a variety of sources to their personal devices. We envision smart abilities in Bunny that would bring agile data analytic solution development and delivery to near real time.
+This brings the application closer to the Business user by delivering the ability to acquire and visualize data from a variety of sources to their personal devices. We envision smart abilities in Bunny that would bring agile data analytic solution development and delivery to near real time.
 
-The **Bunny** framework development is very active right now and early adopters can benefit by shaping up the design by requesting features. Bunny is a simple and easy to use interface for querying and reporting of data. APIs for Data acquisition, Data filtering, Data cleansing, etc. provide simple solution, often in one step, for many real world problems. 
+The framework development is very active right now and early adopters can benefit by shaping up the design by requesting features. Bunny is a simple and easy to use interface for querying and reporting of data. APIs for Data acquisition, Data filtering, Data cleansing, etc. provide simple solution, often in one step, for many real world problems. 
 
-Data analytics solution development using **Bunny** follows a templatized design style. As a Data Scientist would, a software developer using Bunny too would solve a data analytics problem by stacking his solution starting with Data acquisition, followed by Data modeling & cleansing and then topping up with appropriate Data visualization. Applying Bootstrap to the visualization is automatic, bringing agility to development without compromising on quality of user experience. The following figure describes a stacked template of function blocks that aptly summarizes solution development using **Bunny**
+Data analytics solution development follows a templatized design style. As a Data Scientist would, a software developer using Bunny too would solve a data analytics problem by stacking his solution starting with Data acquisition, followed by Data modeling & cleansing and then topping up with appropriate Data visualization. Applying Bootstrap to the visualization is automatic, bringing agility to development without compromising on quality of user experience. The following figure describes a stacked template of function blocks that aptly summarizes solution development.
 
-Here is a high level block diagram of all the components of Bunny.
+Here is a high level block diagram of all the components.
 <img src="squirrel_block.png"/>
 
 Key Design Philosophy
 ---------------------
-Here are couple of design decisions that have been the guiding principle for the choice of internal data structure for Bunny ```Table``` data structure to make data accessing/manipulating more intuitive and efficient at the same time.
+Here are couple of design decisions that have been the guiding principle for the choice of internal data structure for ```Table``` data structure to make data accessing/manipulating more intuitive and efficient at the same time.
 * Each row in the table should be available by zero based integer indexing as we do in arrays and ```List<T>``` So if a table ```birthRates``` exists then we should be able to get to 10th row by the syntax ```birthRates[9]```
 * A column at a given index should be available by the column name index. So if we have a table ```StockValues``` that stores average stock values in a year of different companies where the row depicts the year and the column depicts the company for which the stock price is stored, then we should be able to get the stock price for Microsoft (Symbol “MSFT”) for 5th year as ```StockValues[4][“MSFT”]```
 * Value at row ```“k”``` (Expressed as an integer) and column ```“m”``` (Expressed as a string) has to be accessible by either of the syntax ```table[k][“m”]``` or ```table[“m”][k]```.
