@@ -12,7 +12,7 @@ Squirrel is built on .NET Standard 2.0
 <!--<a href="Squirrel"><img src="https://raw.github.com/sudipto80/Squirrel/newb/img/icon_26718.png" align="left" t="100" width="100" ></a>-->
 
 
-Why Bunny?
+Why this?
 ------------
 Data Analytics and Big Data, are now the buzz words of the industry. Today many Businesses want to drive their businesses using Data Analytics – by gaining insights from their data. Aesthetically pleasing data visualizations with agility are key for effective discovery of insights. And better insight requires a bunch of special skills – an expertise in the field of [Data Science](http://en.wikipedia.org/wiki/Data_science). But are Data Scientists easy to come by?
 Most of the datasets used by the businesses are not anywhere near Big. Actually they are Tiny to Medium. A typical dataset has only few thousand rows! 
@@ -27,18 +27,17 @@ Most of the datasets used by the businesses are not anywhere near Big. Actually 
 
 
 Businesses are so sold up to the idea of Big data (it has almost become a status symbol) that they ignore the power of small data tools developed in-house in deriving their insights. So could software developers replace the need of the Data Scientist in answering most questions that involve Tiny or Medium datasets?
-Business users (Operational Managers, System Engineers, Financial and Planning Analysts, DevOps, etc.), often want to initiate the analysis and gain insight into the
-business on their personal devices. But they cannot because of the special skills and training needed to perform such actions. Their outlook thus remains limited by the canned reports/insights offered by their backend. Could a Business user acquire, generate and visualize data of his choice, without knowing the details of data organization or query syntax?
+Business users (Operational Managers, System Engineers, Financial and Planning Analysts, DevOps, etc.), often want to initiate the analysis and gain insight into the business on their personal devices. But they cannot because of the special skills and training needed to perform such actions. Their outlook thus remains limited by the canned reports/insights offered by their backend. Could a Business user acquire, generate and visualize data of his choice, without knowing the details of data organization or query syntax?
 
 This is not only answers the above questions but also tries to fulfill the lack of a good data processing and analytics tool or framework to the large .NET developer ecosystem.
 
 This seeks to simplify the task of discovering insights by bringing to the software developer a templatized design style for answering most common problems in data science. Readymade functions bring the agility in developing a solution or a storyline from any data.
 
-This brings the application closer to the Business user by delivering the ability to acquire and visualize data from a variety of sources to their personal devices. We envision smart abilities in Bunny that would bring agile data analytic solution development and delivery to near real time.
+This brings the application closer to the Business user by delivering the ability to acquire and visualize data from a variety of sources to their personal devices. We envision smart abilities that would bring agile data analytic solution development and delivery to near real time.
 
-The framework development is very active right now and early adopters can benefit by shaping up the design by requesting features. Bunny is a simple and easy to use interface for querying and reporting of data. APIs for Data acquisition, Data filtering, Data cleansing, etc. provide simple solution, often in one step, for many real world problems. 
+The framework development is very active right now and early adopters can benefit by shaping up the design by requesting features. It's is a simple and easy to use interface for querying and reporting of data. APIs for Data acquisition, Data filtering, Data cleansing, etc. provide simple solution, often in one step, for many real world problems. 
 
-Data analytics solution development follows a templatized design style. As a Data Scientist would, a software developer using Bunny too would solve a data analytics problem by stacking his solution starting with Data acquisition, followed by Data modeling & cleansing and then topping up with appropriate Data visualization. Applying Bootstrap to the visualization is automatic, bringing agility to development without compromising on quality of user experience. The following figure describes a stacked template of function blocks that aptly summarizes solution development.
+Data analytics solution development follows a templatized design style. As a Data Scientist would, a software developer using too would solve a data analytics problem by stacking his solution starting with Data acquisition, followed by Data modeling & cleansing and then topping up with appropriate Data visualization. Applying Bootstrap to the visualization is automatic, bringing agility to development without compromising on quality of user experience. The following figure describes a stacked template of function blocks that aptly summarizes solution development.
 
 Here is a high level block diagram of all the components.
 <img src="squirrel_block.png"/>
@@ -93,7 +92,7 @@ PM> Install-Package TableAPI
 
 [Here is the NuGet Package page](https://www.nuget.org/packages/TableAPI/)
 
-Although the package is named `TableAPI` the namespaces to import is Bunny like 
+Although the package is named `TableAPI` the namespaces to import is 
 
 ```csharp
 
